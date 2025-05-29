@@ -461,7 +461,7 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -1431,6 +1431,47 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
+
+/* Custom styles for favorites section */
+.favorites-item {
+    padding: 2rem;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    height: 100%;
+}
+
+.favorites-item h4 {
+    margin-bottom: 1.5rem;
+    color: #212529;
+}
+
+.favorites-item ul li {
+    margin-bottom: 1rem;
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.favorites-item ul li i {
+    color: #fed136;
+    width: 1.5rem;
+}
+
+/* Custom styles for academics timeline */
+#academics .timeline-image h4 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    #academics .timeline-image h4 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+        margin-top: 0.9rem;
+    }
+}
 @media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
@@ -2229,7 +2270,7 @@ textarea.form-control {
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
   border-color: #28a745;
 }
-.was-validated .custom-file-input:valid:focus ~ .custom-file-label, .custom-file-input.is-valid:focus ~ .custom-file-label {
+.was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
   border-color: #28a745;
   box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
